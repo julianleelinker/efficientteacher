@@ -44,8 +44,25 @@ Dataset:
   train: data/custom_train.txt  # 118287 images
   val: data/custom_val.txt  # 5000 images
   test: data/custom_val.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794^
-  nc: 2  # number of classes
+  nc: 16  # number of classes
   np: 0 #number of keypoints
-  names: [ 'rick', 'morty']
+  names: [
+      'BICYCLE',
+      'BUS',
+      'CAR',
+      'CLEAN_TRAFFIC_SIGN',
+      'CONE',
+      'DIRTY_TRAFFIC_SIGN',
+      'JERSEY_BARRIER',
+      'MOTORCYCLE',
+      'PEDESTRIAN',
+      'RIDER',
+      'ROAD_CRACKS',
+      'ROAD_PATCH',
+      'ROAD_POTHOLES',
+      'TRAFFIC_LIGHT',
+      'TRUCK',
+      'UNCLEAR_ROAD_MARKING',
+  ]
   img_size: 640
   batch_size: 128
