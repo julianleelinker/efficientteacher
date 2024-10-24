@@ -35,3 +35,6 @@ onnx-simplifier>=0.3.6  # ONNX simplifier
 # pycocotools>=2.0  # COCO mAP
 # roboflow
 thop  # FLOPs computation
+
+
+scikit-learn

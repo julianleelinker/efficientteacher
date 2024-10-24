@@ -1,4 +1,7 @@
 #custom dir
+datasets/
+exp_ssod/
+yolov5l/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
