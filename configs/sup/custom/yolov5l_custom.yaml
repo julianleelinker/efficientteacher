@@ -42,7 +42,7 @@ Loss:
 Dataset:
   data_name: 'coco'
   train: data/custom_train.txt  # 118287 images
-  val: data/custom_val.txt  # 5000 images
+  val: /home/julian/work/efficientteacher/data/mobility-s8-s12-s24/val.txt
   test: data/custom_val.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794^
   nc: 16  # number of classes
   np: 0 #number of keypoints
